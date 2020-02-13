@@ -1,0 +1,53 @@
+﻿
+     h1{
+         color: #004d99;
+     }
+     .grid{
+         vertical-align:central;
+     }
+     .split {
+  height: 80%;
+  width: 71%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+     .align{
+         /*height: 55%;
+        width: 55%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        overflow-x: hidden;
+        padding-top: 20px;*/
+     }
+/* Control the left side */
+.left {
+  left: 0;
+}
+/* Control the right side */
+.right {
+  right: 0;
+}
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.greenBox{
+    background-color:#99cc00; 
+    padding: 20px;
+}
+.titleBox{
+    background-color:#99cc00;
+    padding: 1px;
+}
+.brownBox{
+    background-color:#fcbf82;
+    padding: 0px;
+}
