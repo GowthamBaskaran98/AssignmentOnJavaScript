@@ -94,6 +94,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CancelPage.aspx" />
+    <Content Include="Images\cancel.png" />
+    <Content Include="Images\pay.png" />
+    <Content Include="Images\payment.png" />
+    <Content Include="Images\img.png" />
+    <Content Include="Images\question.png" />
+    <Content Include="Images\refresh.png" />
+    <Content Include="Images\startAgain.png" />
+    <Content Include="Images\Visa.png" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -111,9 +120,17 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="StyleSheet.css" />
+    <Content Include="Validation.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CancelPage.aspx.cs">
+      <DependentUpon>CancelPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CancelPage.aspx.designer.cs">
+      <DependentUpon>CancelPage.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

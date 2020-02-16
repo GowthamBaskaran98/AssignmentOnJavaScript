@@ -1,53 +1,144 @@
-﻿
-     h1{
-         color: #004d99;
-     }
-     .grid{
-         vertical-align:central;
-     }
-     .split {
-  height: 80%;
-  width: 71%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
+﻿body {
+    font-family:Arial, Helvetica, sans-serif;
+    resize: both;
+    font-style:normal;
+    max-width: 1000px;
+    margin-left: 25%;
+    margin-right: 15%;
+    border: 1px solid gray;
 }
-     .align{
-         /*height: 55%;
-        width: 55%;
-        position: fixed;
-        z-index: 1;
-        top: 0;
-        overflow-x: hidden;
-        padding-top: 20px;*/
-     }
-/* Control the left side */
-.left {
-  left: 0;
+.greenBox {
+    background-color: #99cc00;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-/* Control the right side */
-.right {
-  right: 0;
-}
-/* If you want the content centered horizontally and vertically */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-.greenBox{
-    background-color:#99cc00; 
-    padding: 20px;
-}
-.titleBox{
-    background-color:#99cc00;
+.titleBox {
+    background-color: #99cc00;
     padding: 1px;
 }
-.brownBox{
-    background-color:#fcbf82;
-    padding: 0px;
+.brownBox {
+    background-color: #fcbf82;
+}
+h1 {
+    margin-left: 50px;
+    color: #073154;
+}
+h2 {
+    height: 30px;
+    color: #040142;
+}
+.header{
+    color: #073154;
+    font-size:30px;
+}
+footer {
+    position: relative;
+    background-color: #99cc00;
+    color: blue;
+    text-align: center;
+    font-size: 35px;
+    padding-top:25px;
+    padding-bottom:25px;
+    font-weight: bolder;
+}
+.monthbox{
+    width: 12.5%;
+    right: 5%;
+}
+.yearbox{
+    width:25.5%;
+    right: 5%;
+}
+input[type="text"] {
+    height: 15px;
+    width: 100%;
+}
+.security {    
+    height: 15px;
+    width: 81px;
+}
+.margin {
+    float: left;
+    width: 30%;
+}
+.content {
+    width: 60%;
+    float: left;
+}
+.whiteText {
+    color:white;
+}
+.page:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.content_one {
+    float: left;
+    width: 30%;
+}
+.column_two {
+    float: left;
+    width: 60%;
+}
+.content_three {
+    width: 60%;
+    float: left;
+}
+
+.content_four {
+    width: 60%;
+    float: left;
+}
+.VisaPosition {
+    float: left;
+    width: 10%;
+}
+.question{
+    width: 25px;
+    height: 25px;
+}
+.questionone {
+    margin-top:399px;
+    margin-left:10px;
+    float:left;
+}
+.questiontwo {
+    margin-top:215px;
+    margin-left:-25px;
+    float:left;
+}
+.bluetext{
+    color:#0000ff;
+    font-size:1.2em;
+}
+.first_content:after {
+    content:"";
+    display: block;
+    clear: both;
+}
+.alignrose{
+    margin-left:35px;
+    height:220px;
+    width:190px;
+}
+.Visa {
+    width: 75px;
+    height: 20px;
+    border: 1px solid gray;
+    position: relative;
+    padding:15px 5px 15px 2px;
+    right: 16px;
+    top: 40px;
+}
+.button_image {
+    width: 25px;
+    height: 25px;
+}
+.payment_Button {
+    float:right;
+    }
+.button_position{
+    float:right;
 }
