@@ -1,5 +1,4 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="PaymentPage.aspx.cs" Inherits="OnlineFlowerShopping.PaymentPage" %>
-
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -9,9 +8,9 @@
 </head>
 <body>
     <form id="form1" runat="server" style="line-height: 30px;">
-        <div>
+        <header>
             <h1>FLOWER SHOP ONLINE</h1>
-        </div>
+        </header>
         <div class="greenBox"></div>
         <div class="page">
             <div class="margin">
@@ -107,13 +106,13 @@
                 </div>
                 <hr />
                 <label class="header">Refunds and Returns </label>
-                <p>For more information visit our Refunds and Returns Policy.</></p>
+                <label>For more information visit our Refunds and Returns Policy.</></label>
                 <div class="first_content">
                     <div class="content_one">
                         <img class="image" src="Images/pay.png" />
                     </div>
                     <div class="content_four">
-                        <p class="button_position">For help with your payment visit the <a href="https://www.worldpay.com/en-gb/enterprise-support">WorldPay Help .</a></p>
+                        <label class="button_position">For help with your payment visit <a href="http://help.worldpay.com/home">WorldPay Help .</a></label>
                     </div>
                 </div>
             </div>

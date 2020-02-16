@@ -52,7 +52,7 @@ footer {
 }
 input[type="text"] {
     height: 15px;
-    width: 100%;
+    width: 90%;
 }
 .security {    
     height: 15px;
@@ -86,7 +86,6 @@ input[type="text"] {
     width: 60%;
     float: left;
 }
-
 .content_four {
     width: 60%;
     float: left;
